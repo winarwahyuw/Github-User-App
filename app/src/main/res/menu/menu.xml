@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btn_setting"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/setting"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/btn_fav"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        android:visible="true"
+        app:showAsAction="always"
+        android:title="@string/add_to_favorite" />
+
+</menu>
